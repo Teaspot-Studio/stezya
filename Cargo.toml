@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "stezya",
+    "stezya-core",
+]
