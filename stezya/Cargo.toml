@@ -8,3 +8,9 @@ edition = "2021"
 [dependencies]
 legion = "0.4.0"
 sdl2 = { version = "0.35.2", features = [ "mixer", "image" ] }
+crossbeam = "0.8.1"
+stezya-core = { path = "../stezya-core" }
+
+[features]
+default = ["trace-fps"]
+trace-fps = []
