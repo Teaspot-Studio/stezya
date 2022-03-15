@@ -19,6 +19,7 @@ use render::components::renderdelta::*;
 use stezya_core::world::*;
 use audio::*;
 use render::*; //Why it was not loaded stuff from render::systems::render::* ?
+// NC: render module simply doesn't reexport stuff
 use render::systems::render::*;
 
 /// Itialize graphic pipeline, event processing and game logic.

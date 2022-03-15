@@ -16,7 +16,7 @@ use crate::render::components::spriteview::SpriteView;
 #[system]
 #[read_component(Harvester)]
 #[read_component(SpriteView)]
-
+#[read_component(Pos)]
 pub fn render(
     #[resource] canvas: &mut WindowCanvas,
     world: &SubWorld,
