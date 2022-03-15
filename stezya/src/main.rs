@@ -13,9 +13,13 @@ use std::time::Instant;
 use legion::*;
 use crossbeam::channel::*;
 
+use render::components::windowsize::*;
+use render::components::renderdelta::*;
+
 use stezya_core::world::*;
 use audio::*;
-use render::*;
+use render::*; //Why it was not loaded stuff from render::systems::render::* ?
+use render::systems::render::*;
 
 /// Itialize graphic pipeline, event processing and game logic.
 fn initialize() -> Result<(WindowCanvas, EventPump), String> {

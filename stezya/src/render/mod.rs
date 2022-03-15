@@ -1,5 +1,5 @@
 pub mod components;
-pub mod system;
+pub mod systems;
 
 pub use components::*;
-pub use system::*;
+pub use systems::*;

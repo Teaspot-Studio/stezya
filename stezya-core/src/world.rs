@@ -1,4 +1,7 @@
 use legion::*;
+use glam::*;
+
+use super::components::harvester::*;
 
 fn init_resources() -> Resources {
     let mut resources = Resources::default();

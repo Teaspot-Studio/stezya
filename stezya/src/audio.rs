@@ -3,7 +3,7 @@ use std::path::Path;
 use legion::*;
 use crossbeam::channel::*;
 
-use super::render::components::RenderDelta;
+use super::render::components::renderdelta::*;
 
 /// Default search path for sounds
 pub const SOUNDS_PATH: &str = "./sounds";

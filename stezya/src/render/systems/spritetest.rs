@@ -5,7 +5,7 @@ use sdl2::pixels::Color;
 
 #[system]
 // #[read_component(Player)]
-pub fn render(
+pub fn renderspritetest(
     #[resource] canvas: &mut WindowCanvas,
     // world: &SubWorld,
 ) {

@@ -1,8 +1,3 @@
-use std::time::Duration;
-
-#[derive(Copy, Clone, Debug, Default)]
-pub struct RenderDelta(pub Duration);
-
 pub const DEF_WINDOW_WIDTH: u32 = 1496;
 pub const DEF_WINDOW_HEIGHT: u32 = 1024;
 
