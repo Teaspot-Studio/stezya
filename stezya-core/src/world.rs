@@ -13,6 +13,8 @@ pub fn init_world() -> (World, Resources) {
     let mut world = World::default();
     let mut resources = init_resources();
 
+    create_harvester(&mut resources, &mut world);
+
     (world, resources)
 }
 

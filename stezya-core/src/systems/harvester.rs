@@ -29,6 +29,7 @@ pub fn harvester(
         harvester.0 = false;
 
         // Process inputs
+        
         for ie in hinput.iter() {
             match ie {
                 HarvesterInput::Move => {

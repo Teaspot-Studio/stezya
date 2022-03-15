@@ -29,12 +29,11 @@ pub enum HarvesterInput {
 
 /// Allocate components for the player
 pub fn create_harvester(resources: &mut Resources, w: &mut World) -> Entity {
-    let ws: WorldSize = *resources.get::<WorldSize>().unwrap();
     w.push((
         Harvester(false),
         Pos(Vec2::new(
-            ws.0 as f32 * 0.5,
-            ws.1 as f32 * 0.5,
+            1000 as f32 * 0.5,
+            400 as f32 * 0.5,
         )),
         Rot(0.0),
         Vel(Vec2::new(0.0,0.0)),
